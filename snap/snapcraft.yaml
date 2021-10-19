@@ -1,0 +1,80 @@
+name: 4ktube
+base: core18 # the base snap is the execution environment for this snap
+version: '2.1' # just for humans, typically '1.2+git' or '1.3.2'
+summary: Download youtube videos, playlist and music audio in full HD formats
+description: 4KTUBE is a powerful GUI application for linux for downloading youtube videos, playlist and music audio in full UHD+ resolutions and supports MP4, WEBM and MP3 formats.
+grade: stable # must be 'stable' to release into candidate/stable channels  / before dev use devel
+confinement: strict # use 'strict' once you have the right plugs and slots / before dev use devmode
+
+icon: snap/gui/icon.png
+
+architectures:
+  - build-on: [amd64]
+
+apps:
+  4ktube:
+    command: bin/desktop-launch python3 $SNAP/4ktube.py
+    plugs: 
+       - home
+       - gsettings
+       - network
+       - network-bind
+       - network-status
+       - desktop
+       - desktop-legacy
+       - x11
+       - unity7
+       - wayland
+       - opengl
+       - audio-playback
+       - hardware-observe
+    desktop: 4ktube.desktop
+
+plugs:
+  gsettings:
+  gtk-3-themes:
+    interface: content
+    target: $SNAP/data-dir/themes
+    default-provider: gtk-common-themes
+  icon-themes:
+    interface: content
+    target: $SNAP/data-dir/icons
+    default-provider: gtk-common-themes
+  sound-themes:
+    interface: content
+    target: $SNAP/data-dir/sounds
+    default-provider: gtk-common-themes
+  pyqt5-runtime:
+    interface: content
+    target: $SNAP/pyqt5-runtime
+    default-provider: pyqt5-runtime
+
+
+parts:
+  desktop-gui:
+    plugin: dump
+    source: src/
+    override-build: |
+      snapcraftctl build
+      sed -i 's|Icon=.*|Icon=${SNAP}/meta/gui/icon.png|g' ${SNAPCRAFT_PART_SRC}/4ktube.desktop
+      mkdir -p ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/
+      cp -rf ${SNAPCRAFT_PART_SRC}/4ktube.desktop ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/4ktube.desktop
+
+
+  snap-launcher:
+    plugin: dump
+    source: snap_launcher/
+
+  4ktube:
+      plugin: python
+      python-version: python3
+      source: .
+      python-packages: 
+          - requests
+          - cryptography
+          - pytube
+          - psutil
+          - ffmpeg-python
+          - python-slugify
+          - youtube_dl
+      build-attributes: [ keep-execstack ]
