@@ -1,10 +1,10 @@
 from PyQt5.QtCore import QPropertyAnimation, QEasingCurve
 from PyQt5.QtWidgets import QPushButton
-from src.gui.ui_main import Ui_main_window
-from src.gui.widgets import PyLeftButton
+from gui.ui_main import Ui_main_window
+from gui.widgets import PyLeftButton
 
 
-class MainFunctions():
+class MainFunctions:
     def __init__(self):
         super().__init__()
 
