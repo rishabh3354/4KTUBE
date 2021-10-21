@@ -50,7 +50,7 @@ class MainWindow(QMainWindow):
         self.setStyleSheet(self.theme)
         self.youtube_setting_ui.setStyleSheet(self.theme)
         self.url_dialog_ui.setStyleSheet(self.theme)
-        self.setWindowTitle("4KTUBE")
+        self.setWindowTitle("4KTUBE PRO")
         self.settings = QSettings("warlordsoft", "4ktube")
         self.tip_count = -1
         self.pytube_status = True

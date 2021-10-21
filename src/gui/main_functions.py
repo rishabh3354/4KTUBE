@@ -18,60 +18,60 @@ class MainFunctions:
 
         self.toggle_btn = PyLeftButton(
             "Hide Menu",
-            icon_name="icon_menu.svg"
+            icon_name=":/myresource/resource/icon_menu.svg"
         )
 
         self.home_btn = PyLeftButton(
             "Home",
-            icon_name="icon_home.svg",
+            icon_name=":/myresource/resource/icon_home.svg",
             is_active=True
         )
 
         self.home_btn = PyLeftButton(
             "Home",
-            icon_name="icon_home.svg",
+            icon_name=":/myresource/resource/icon_home.svg",
             is_active=True
         )
 
         self.video = PyLeftButton(
             "Single Video",
-            icon_name="play-alt.svg",
+            icon_name=":/myresource/resource/play-alt.svg",
             is_active=True
         )
 
         self.playlist = PyLeftButton(
             "Whole Playlist",
-            icon_name="film.svg",
+            icon_name=":/myresource/resource/film.svg",
             is_active=True
         )
 
         self.downloads = PyLeftButton(
             "Downloads",
-            icon_name="download.svg",
+            icon_name=":/myresource/resource/download.svg",
             is_active=True
         )
 
         self.system_monitor = PyLeftButton(
             "System Monitor",
-            icon_name="pulse.svg",
+            icon_name=":/myresource/resource/pulse.svg",
             is_active=True
         )
 
         self.about = PyLeftButton(
             "About",
-            icon_name="info.svg",
+            icon_name=":/myresource/resource/info.svg",
             is_active=True
         )
 
         self.account = PyLeftButton(
             "Account",
-            icon_name="user.svg",
+            icon_name=":/myresource/resource/user.svg",
             is_active=True
         )
 
         self.settings_btn = PyLeftButton(
             "Settings",
-            icon_name="icon_settings.svg"
+            icon_name=":/myresource/resource/icon_settings.svg"
         )
 
         self.toggle_btn.clicked.connect(lambda: MainFunctions.toggle_button(self))

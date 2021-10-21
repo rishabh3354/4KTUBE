@@ -1,4 +1,3 @@
-import os
 from PyQt5.QtGui import QPainter, QPixmap
 from PyQt5.QtWidgets import QPushButton
 from PyQt5.QtCore import Qt, QRect
@@ -6,18 +5,18 @@ from PyQt5.QtCore import Qt, QRect
 
 class PyLeftButton(QPushButton):
     def __init__(
-        self,
-        text = "",
-        height = 45,
-        minimum_width = 60,
-        text_padding = 65,
-        text_color = "#E0E1E3",
-        icon_name = "",
-        icon_color = "#c3ccdf",
-        btn_color = "#44475a",
-        btn_hover = "#233547",
-        btn_pressed = "#282a36",
-        is_active = False
+            self,
+            text="",
+            height=45,
+            minimum_width=60,
+            text_padding=65,
+            text_color="#E0E1E3",
+            icon_name="",
+            icon_color="#c3ccdf",
+            btn_color="#44475a",
+            btn_hover="#233547",
+            btn_pressed="#282a36",
+            is_active=False
     ):
         super().__init__()
 
@@ -38,42 +37,41 @@ class PyLeftButton(QPushButton):
         self.btn_pressed = btn_pressed
         self.is_active = is_active
 
-
         """QPushButton {
-  color: #E0E1E3;
-  border-radius: 4px;
-  padding: 5px;
-  outline: none;
-  border: none;
-}"""
+              color: #E0E1E3;
+              border-radius: 4px;
+              padding: 5px;
+              outline: none;
+              border: none;
+            }"""
         # # Set style
         self.set_style(
-            text_padding = self.text_padding,
-            text_color = self.text_color,
-            btn_color = self.btn_color,
-            btn_hover = self.btn_hover,
-            btn_pressed = self.btn_pressed,
-            is_active = self.is_active
+            text_padding=self.text_padding,
+            text_color=self.text_color,
+            btn_color=self.btn_color,
+            btn_hover=self.btn_hover,
+            btn_pressed=self.btn_pressed,
+            is_active=self.is_active
         )
-    
+
     def set_active(self, is_active_menu):
         self.set_style(
-            text_padding = self.text_padding,
-            text_color = self.text_color,
-            btn_color = self.btn_color,
-            btn_hover = self.btn_hover,
-            btn_pressed = self.btn_pressed,
-            is_active = is_active_menu
+            text_padding=self.text_padding,
+            text_color=self.text_color,
+            btn_color=self.btn_color,
+            btn_hover=self.btn_hover,
+            btn_pressed=self.btn_pressed,
+            is_active=is_active_menu
         )
 
     def set_style(
-        self,
-        text_padding = 65,
-        text_color = "#E0E1E3",
-        btn_color = "#44475a",
-        btn_hover = "#233547",
-        btn_pressed = "#282a36",
-        is_active = False
+            self,
+            text_padding=65,
+            text_color="#E0E1E3",
+            btn_color="#44475a",
+            btn_hover="#233547",
+            btn_pressed="#282a36",
+            is_active=False
     ):
         style = f"""
         QPushButton {{
@@ -101,33 +99,19 @@ class PyLeftButton(QPushButton):
             self.setStyleSheet(style + active_style)
 
     def paintEvent(self, event):
-        # Return default style
         QPushButton.paintEvent(self, event)
-
-        # Painter
         qp = QPainter()
         qp.begin(self)
         qp.setRenderHint(QPainter.Antialiasing)
         qp.setPen(Qt.NoPen)
-
-        rect = QRect(0,0, self.minimum_width, self.height())
-
+        rect = QRect(0, 0, self.minimum_width, self.height())
         self.draw_icon(qp, self.icon_name, rect, self.icon_color)
-
         qp.end()
 
     def draw_icon(self, qp, image, rect, color):
-        # Format Path
-        app_path = os.path.abspath(os.getcwd())
-        folder = "gui/images/icons"
-        path = os.path.join(app_path, folder)
-        icon_path = os.path.normpath(os.path.join(path, image))
-
-        # Draw icon
-        icon = QPixmap(icon_path)
+        icon = QPixmap(image)
         painter = QPainter(icon)
         painter.setCompositionMode(QPainter.CompositionMode_SourceIn)
-        # painter.fillRect(icon.rect(), color)
         qp.drawPixmap(
             (rect.width() - icon.width()) / 2,
             (rect.height() - icon.height()) / 2,
