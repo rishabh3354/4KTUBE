@@ -97,15 +97,14 @@
      <file>resource/icons8-undo-96.png</file>
      <file>resource/4ktube.png</file>
      <file>resource/4ktube_small_icon.png</file>
-     <file>resource/download.svg</file>
-     <file>resource/play-alt.svg</file>
-     <file>resource/icon_settings.svg</file>
-     <file>resource/icon_home.svg</file>
-     <file>resource/icon_menu.svg</file>
-     <file>resource/film.svg</file>
-     <file>resource/pulse.svg</file>
-     <file>resource/info.svg</file>
-     <file>resource/icon_widgets.svg</file>
-     <file>resource/user.svg</file>
+     <file>resource/download.png</file>
+     <file>resource/play-alt.png</file>
+     <file>resource/icon_settings.png</file>
+     <file>resource/icon_home.png</file>
+     <file>resource/icon_menu.png</file>
+     <file>resource/film.png</file>
+     <file>resource/pulse.png</file>
+     <file>resource/info.png</file>
+     <file>resource/user.png</file>
   </qresource>
 </RCC>
