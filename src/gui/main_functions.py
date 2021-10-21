@@ -3,6 +3,8 @@ from PyQt5.QtWidgets import QPushButton
 from gui.ui_main import Ui_main_window
 from gui.widgets import PyLeftButton
 
+ICON_PATH = '/snap/4ktube/current/'
+
 
 class MainFunctions:
     def __init__(self):
@@ -18,60 +20,60 @@ class MainFunctions:
 
         self.toggle_btn = PyLeftButton(
             "Hide Menu",
-            icon_name=":/myresource/resource/icon_menu.svg"
+            icon_name=ICON_PATH + "resource/icon_menu.svg"
         )
 
         self.home_btn = PyLeftButton(
             "Home",
-            icon_name=":/myresource/resource/icon_home.svg",
+            icon_name=ICON_PATH + "resource/icon_home.svg",
             is_active=True
         )
 
         self.home_btn = PyLeftButton(
             "Home",
-            icon_name=":/myresource/resource/icon_home.svg",
+            icon_name=ICON_PATH + "resource/icon_home.svg",
             is_active=True
         )
 
         self.video = PyLeftButton(
             "Single Video",
-            icon_name=":/myresource/resource/play-alt.svg",
+            icon_name=ICON_PATH + "resource/play-alt.svg",
             is_active=True
         )
 
         self.playlist = PyLeftButton(
             "Whole Playlist",
-            icon_name=":/myresource/resource/film.svg",
+            icon_name=ICON_PATH + "resource/film.svg",
             is_active=True
         )
 
         self.downloads = PyLeftButton(
             "Downloads",
-            icon_name=":/myresource/resource/download.svg",
+            icon_name=ICON_PATH + "resource/download.svg",
             is_active=True
         )
 
         self.system_monitor = PyLeftButton(
             "System Monitor",
-            icon_name=":/myresource/resource/pulse.svg",
+            icon_name=ICON_PATH + "resource/pulse.svg",
             is_active=True
         )
 
         self.about = PyLeftButton(
             "About",
-            icon_name=":/myresource/resource/info.svg",
+            icon_name=ICON_PATH + "resource/info.svg",
             is_active=True
         )
 
         self.account = PyLeftButton(
             "Account",
-            icon_name=":/myresource/resource/user.svg",
+            icon_name=ICON_PATH + "resource/user.svg",
             is_active=True
         )
 
         self.settings_btn = PyLeftButton(
             "Settings",
-            icon_name=":/myresource/resource/icon_settings.svg"
+            icon_name=ICON_PATH + "resource/icon_settings.svg"
         )
 
         self.toggle_btn.clicked.connect(lambda: MainFunctions.toggle_button(self))

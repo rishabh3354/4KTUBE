@@ -109,7 +109,7 @@ class PyLeftButton(QPushButton):
         qp.end()
 
     def draw_icon(self, qp, image, rect, color):
-        icon = QPixmap(":/myresource/resource/4ktube_small_icon.png")
+        icon = QPixmap(image)
         painter = QPainter(icon)
         painter.setCompositionMode(QPainter.CompositionMode_SourceIn)
         painter.fillRect(icon.rect(), Qt.lightGray)
