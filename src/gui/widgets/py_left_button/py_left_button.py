@@ -78,7 +78,7 @@ class PyLeftButton(QPushButton):
             color: {text_color};
             padding-left: {text_padding}px;
             text-align: left;
-            border: none;
+            border-radius: none;
         }}
         QPushButton:hover {{
             background-color: {btn_hover};

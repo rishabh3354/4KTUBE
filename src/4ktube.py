@@ -29,7 +29,7 @@ from helper import FREQUENCY_MAPPER
 from settings import YouTubeSettings, UrlDialog
 from gui.main_functions import MainFunctions
 from gui.ui_main import Ui_main_window
-os.environ["QT_FONT_DPI"] = "96"
+os.environ["QT_FONT_DPI"] = "100"
 
 PRODUCT_NAME = "4KTUBE"
 THEME_PATH = '/snap/4ktube/current/'
