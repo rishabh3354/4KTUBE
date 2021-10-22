@@ -266,6 +266,8 @@ class MainWindow(QMainWindow):
 
     def home_page(self):
         self.ui.stackedWidget.setCurrentIndex(0)
+        MainFunctions.reset_selection(self)
+        self.home_btn.set_active(True)
 
     def show_net_speed(self):
         self.ui.stackedWidget.setCurrentIndex(4)

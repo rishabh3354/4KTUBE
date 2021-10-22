@@ -90,7 +90,7 @@ class PyLeftButton(QPushButton):
 
         active_style = f"""
         QPushButton {{
-            border-right: 5px solid #c43128;
+            border: 27px solid #c43128;
         }}
         """
         if not is_active:

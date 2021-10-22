@@ -27,12 +27,6 @@ class MainFunctions:
             is_active=True
         )
 
-        self.home_btn = PyLeftButton(
-            "Home",
-            icon_name=":/myresource/resource/icon_home.png",
-            is_active=True
-        )
-
         self.video = PyLeftButton(
             "Single Video",
             icon_name=":/myresource/resource/play-alt.png",
