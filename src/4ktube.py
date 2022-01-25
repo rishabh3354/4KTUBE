@@ -1863,7 +1863,7 @@ class MainWindow(QMainWindow):
                 context["selected_video_index"] = self.ui.select_videos_playlist_2.currentIndex()
 
                 context["all_yt_playlist_obj"] = self.total_obj
-                context["playlist"] = self.playlist
+                context["playlist"] = self.playlists
                 context["location"] = self.Default_loc_playlist
                 context["main_obj"] = self
                 self.progress_bar_enable()
@@ -1965,7 +1965,7 @@ class MainWindow(QMainWindow):
 
             if yt_video_data.get("status"):
                 self.hide_show_playlist_initial_banner(show=True)
-                self.playlist = yt_playlist.get("playlist")
+                self.playlists = yt_playlist.get("playlist")
                 self.playlist_title = yt_playlist.get("playlist_title")
                 self.total_videos = yt_playlist.get("playlist_length")
                 self.watch_url_playlist = yt_playlist.get("playlist_url", "")
@@ -1996,7 +1996,7 @@ class MainWindow(QMainWindow):
                 self.ui.stackedWidget.setCurrentIndex(2)
                 self.setPhoto_playlist(QPixmap(self.thumbnail_path_playlist))
                 MainFunctions.reset_selection(self)
-                self.video.set_active(True)
+                self.playlist.set_active(True)
             else:
                 self.ui.home_progress_bar.setRange(0, 1)
                 self.popup_message(title="Invalid Youtube Playlist Url", message="Please check your Playlist link !")
@@ -2107,7 +2107,7 @@ class MainWindow(QMainWindow):
             self.progress_bar_disable()
             folder_path = json_data.get("file_path")
             play_path = json_data.get("play_path")
-            all_videos_list = ["Download Success\n\n", f"Playlist Name: {self.playlist.title}\n\n"]
+            all_videos_list = ["Download Success\n\n", f"Playlist Name: {self.playlists.title}\n\n"]
 
             for i in range(self.ui.select_videos_playlist_2.count()):
                 v_title = self.ui.select_videos_playlist_2.itemText(i)
