@@ -2,7 +2,7 @@
 
 IF APP IS NOT LAUNCHING AFTER INSTALL, THEN RUN CMD BELOW IN YOUR SHELL
 
-    sudo snap remove 4ktube --purge && sudo snap install 4ktube && sudo snap refresh 4ktube && sudo snap install pyqt5-runtime-core20 && sudo snap refresh pyqt5-runtime -core20 && 4ktube
+    sudo snap remove 4ktube --purge && sudo snap install 4ktube && sudo snap refresh 4ktube && sudo snap install pyqt5-runtime-core20 && sudo snap refresh pyqt5-runtime-core20 && 4ktube
 
 ***FYI:***  *Kindly Be Patient, Sometimes Snap Applications Take A While To Launch At First Time Installations*
 
