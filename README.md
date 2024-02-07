@@ -1,10 +1,3 @@
-**APP NOTE :#**
-
-IF APP IS NOT LAUNCHING AFTER INSTALL, THEN RUN CMD BELOW IN YOUR SHELL
-
-    sudo snap remove 4ktube --purge;sudo snap remove pyqt5-runtime-core20 --purge;sudo snap install pyqt5-runtime-core20;sudo snap install 4ktube;4ktube
-
-
 **ABOUT APPLICATION :**
 
 4KTUBE is a Powerful Application For Downloading **YouTube Videos, Playlists, Music And Online Videos/Audios From The Internet** in HD Resolutions.
@@ -34,19 +27,31 @@ IF APP IS NOT LAUNCHING AFTER INSTALL, THEN RUN CMD BELOW IN YOUR SHELL
  - YouTube Search In The App with **Regional Country Support**.
 
 
-**NOTE  #1**
+## Install FormatLab on Linux Desktop:
 
-ubuntu-restricted-extras package allows users to install ability to play popular non-free media formats, including DVD, MP3, Quicktime, and Windows Media formats. without this you would not be able to play videos inside the app.
+**Snap**
 
-    sudo apt-get install ubuntu-restricted-extras
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/4ktube)
 
-**NOTE  #2**  
+Install with command-line
 
-If CPU Temp is not Coming/not accurate in the System Monitor, then run below command in your Terminal/Shell.
+`snap install 4ktube`
 
-    sudo snap connect 4ktube:hardware-observe
+and run
 
-Info: Some features might be paid in the app. App includes InApp purchase.
+`4ktube`
+
+**Flatpak**
+
+<a href="https://flathub.org/apps/details/com.warlordsoftwares.youtube-downloader-4ktube"><img src="https://flathub.org/assets/badges/flathub-badge-en.png"  height="56" width="186" alt="Get it from the Flathub Store" ></a>
+
+Install with command-line
+
+`flatpak install flathub com.warlordsoftwares.youtube-downloader-4ktube`
+
+and run
+
+`flatpak run com.warlordsoftwares.youtube-downloader-4ktube`
 
 **KEYWORDS:** 
 
