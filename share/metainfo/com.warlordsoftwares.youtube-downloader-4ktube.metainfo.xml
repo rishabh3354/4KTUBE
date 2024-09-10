@@ -153,7 +153,6 @@
 	<url type="bugtracker">https://github.com/rishabh3354/4KTUBE/issues</url>
 	<url type="contact">https://warlordsoftwares.com/contact-us/</url>
 	<url type="donation">https://www.paypal.me/rishabh3354/10</url>
-	<icon>https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/icons/icon.png</icon>
 	<update_contact>contact@warlordsoftwares.com</update_contact>
 	<launchable type="desktop-id">com.warlordsoftwares.youtube-downloader-4ktube.desktop</launchable>
 	<content_rating type="oars-1.1" />
