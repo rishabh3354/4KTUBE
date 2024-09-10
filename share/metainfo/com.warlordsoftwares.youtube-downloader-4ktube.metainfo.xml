@@ -3,17 +3,17 @@
 	<id>com.warlordsoftwares.youtube-downloader-4ktube</id>
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>LicenseRef-proprietary=https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/license/LICENSE</project_license>
-	<developer_name>Warlord Softwares</developer_name>
+	<developer_name translate="no">Warlord Softwares</developer_name>
+	<branding>
+		<color type="primary" scheme_preference="light">#1b786d</color>
+		<color type="primary" scheme_preference="dark">#0b6275</color>
+	</branding>
 	<name>4KTUBE</name>
 	<summary>4K YouTube Downloader – Download HD YouTube Videos, Playlists, and Music Instantly.</summary>
 	<description>
-		<p>
-			<strong>ABOUT 4KTUBE :</strong>
-		</p>
+		<p>ABOUT 4KTUBE :</p>
 		<p>4KTUBE is a Powerful Application For Downloading YouTube Videos, Playlists and Music. It Supports Various Other Online platforms for downloading Video/Audio From The Internet in full 4K Quality.</p>
-		<p>
-			<strong>FEATURES :</strong>
-		</p>
+		<p>FEATURES :</p>
 		<ul>
 			<li>Download YouTube Videos in one Click with Different Formats.</li>
 			<li>Download YouTube Whole Playlist in one Click.</li>
@@ -30,9 +30,7 @@
 			<li>Download ArteTV Video/Audio in one Click.</li>
 			<li>Download Fandom Video/Audio in one Click.</li>
 		</ul>
-		<p>
-			<strong>ADDITIONAL FEATURES :</strong>
-		</p>
+		<p>ADDITIONAL FEATURES :</p>
 		<ul>
 			<li>Batch Download Support For Multiple Videos In one Click.</li>
 			<li>Stream/Play YouTube Videos Online Without Download.</li>
@@ -41,14 +39,13 @@
 			<li>Audio/Video Complete 100% Ads Free Online Stream NO ADS.</li>
 			<li>YouTube Search In The App with Regional Country Support.</li>
 		</ul>
-		<p>
-			<strong>LANGUAGE SUPPORT :</strong>
-		</p>
+		<p>LANGUAGE SUPPORT :</p>
 		<ul>
 			<li>4KTUBE is available in 35+ languages, including German, French, Spanish, Italian, Dutch, Portuguese, Japanese, Polish, Swedish, Chinese, Russian and more.</li>
 		</ul>
 	</description>
 	<keywords>
+		<!--		English Keywords-->
 		<keyword translate="no">4KTUBE</keyword>
 		<keyword>SnapDownloader</keyword>
 		<keyword>By Click Downloader</keyword>
@@ -93,50 +90,82 @@
 		<keyword>Snapchat downloader</keyword>
 		<keyword>linkedin video downloader</keyword>
 		<keyword>SoundCloud Downloader</keyword>
+		<!--		German keywords-->
+		<keyword xml:lang="de">YouTube zu MP3</keyword>
+		<keyword xml:lang="de">Video-Downloader</keyword>
+		<keyword xml:lang="de">Kostenloser YouTube-Downloader</keyword>
+		<keyword xml:lang="de">YouTube-Videos herunterladen</keyword>
+		<keyword xml:lang="de">4K-Videos herunterladen</keyword>
+		<keyword xml:lang="de">Musik-Downloader</keyword>
+		<keyword xml:lang="de">Alle-Dateien-Downloader</keyword>
+		<keyword xml:lang="de">Video-Downloader für YouTube</keyword>
+		<!--		French keywords-->
+		<keyword xml:lang="fr">Téléchargeur de vidéos en ligne</keyword>
+		<keyword xml:lang="fr">Téléchargeur de vidéos par lot</keyword>
+		<keyword xml:lang="fr">Téléchargeur YouTube gratuit</keyword>
+		<keyword xml:lang="fr">Télécharger des vidéos YouTube</keyword>
+		<keyword xml:lang="fr">Téléchargeur YouTube 4K</keyword>
+		<!--		Italian keywords-->
+		<keyword xml:lang="it">Scaricatore di video</keyword>
+		<keyword xml:lang="it">Scaricatore di video online</keyword>
+		<keyword xml:lang="it">Scaricatore YouTube 4K</keyword>
+		<!--		Spanish keywords-->
+		<keyword xml:lang="es">Descargador gratuito de YouTube</keyword>
+		<keyword xml:lang="es">Descargar videos en 4K</keyword>
+		<keyword xml:lang="es">Descargador de videos para YouTube</keyword>
+		<!--		Japanese keywords-->
+		<keyword xml:lang="ja">無料の YouTube ダウンローダー</keyword>
+		<keyword xml:lang="ja">4K ビデオダウンローダー</keyword>
+		<keyword xml:lang="ja">YouTube ビデオをダウンロード</keyword>
+		<!--		Swedish Keywords-->
+		<keyword xml:lang="sv">Ladda ner YouTube-videor</keyword>
+		<keyword xml:lang="sv">YouTube 4K nedladdare</keyword>
+		<keyword xml:lang="sv">Online videonedladdare</keyword>
 	</keywords>
 	<categories>
-		<category>AudioVideo</category>
 		<category>Utility</category>
+		<category>AudioVideo</category>
 	</categories>
 	<screenshots>
 		<screenshot type="default">
-			<image>https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_1.jpg</image>
+			<caption>4KTUBE YouTube home page</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_1.jpg</image>
 		</screenshot>
 		<screenshot>
-			<image>https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_2.jpg</image>
+			<caption>4KTUBE video download page</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_2.jpg</image>
 		</screenshot>
 		<screenshot>
-			<image>https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_3.jpg</image>
+			<caption>4KTUBE system monitor page</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_3.jpg</image>
 		</screenshot>
 		<screenshot>
-			<image>https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_4.jpg</image>
+			<caption>4KTUBE about me page</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_4.jpg</image>
 		</screenshot>
 		<screenshot>
-			<image>https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_5.jpg</image>
+			<caption>4KTUBE app settings page</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_5.jpg</image>
 		</screenshot>
 	</screenshots>
-	<url type="official-website">https://warlordsoftwares.com/trending-apps/4ktube-pro-best-youtube-video-downloader-linux/</url>
-	<url type="homepage">https://github.com/rishabh3354/4KTUBE</url>
+	<url type="homepage">https://warlordsoftwares.com/trending-apps/4ktube-pro-best-youtube-video-downloader-linux/</url>
+	<url type="vcs-browser">https://github.com/rishabh3354/4KTUBE/</url>
 	<url type="bugtracker">https://github.com/rishabh3354/4KTUBE/issues</url>
 	<url type="contact">https://warlordsoftwares.com/contact-us/</url>
 	<url type="donation">https://www.paypal.me/rishabh3354/10</url>
 	<icon>https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/icons/icon.png</icon>
 	<update_contact>contact@warlordsoftwares.com</update_contact>
 	<launchable type="desktop-id">com.warlordsoftwares.youtube-downloader-4ktube.desktop</launchable>
-	<content_rating type="oars-1.1">
-		<content_rating_system>OARS</content_rating_system>
-		<content_rating_component id="violence" rated="none" />
-		<content_rating_component id="sex" rated="none" />
-		<content_rating_component id="drugs" rated="none" />
-		<content_rating_component id="language" rated="none" />
-		<content_rating_component id="discrimination" rated="none" />
-	</content_rating>
+	<content_rating type="oars-1.1" />
 	<releases>
 		<release version="2024.9.10" date="2024-9-10">
 			<description>
-				<p>Now supports 35+ Country Languages</p>
-				<p>Bug fixes: Combo-box for settings</p>
-				<p>Mpv streaming player video title issue fixed</p>
+				<p>Bug fixes and Improvements</p>
+				<ul>
+					<li>Now supports 35+ Country Languages</li>
+					<li>Bug fixes: Combo-box for settings</li>
+					<li>Mpv streaming player video title issue fixed</li>
+				</ul>
 			</description>
 		</release>
 		<release version="2024.9.1" date="2024-9-3">
