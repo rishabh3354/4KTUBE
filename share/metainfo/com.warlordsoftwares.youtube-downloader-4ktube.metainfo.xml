@@ -132,6 +132,13 @@
 		<content_rating_component id="discrimination" rated="none" />
 	</content_rating>
 	<releases>
+		<release version="2024.9.10" date="2024-9-10">
+			<description>
+				<p>Now supports 35+ Country Languages</p>
+				<p>Bug fixes: Combo-box for settings</p>
+				<p>Mpv streaming player video title issue fixed</p>
+			</description>
+		</release>
 		<release version="2024.9.1" date="2024-9-3">
 			<description>
 				<p>Now supports 35+ Country Languages</p>
