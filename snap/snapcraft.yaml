@@ -21,6 +21,7 @@ apps:
     desktop: 4ktube.desktop
     environment:
       DISABLE_WAYLAND: 1
+      LD_LIBRARY_PATH: "$LD_LIBRARY_PATH:$SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/blas:$SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/lapack"
 
     plugs:
        - home
