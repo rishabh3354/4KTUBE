@@ -155,6 +155,9 @@ append_dir LD_LIBRARY_PATH "$SNAP_DESKTOP_RUNTIME/lib/$ARCH"
 append_dir LD_LIBRARY_PATH "$SNAP_DESKTOP_RUNTIME/usr/lib/$ARCH"
 append_dir LD_LIBRARY_PATH "$SNAP_DESKTOP_RUNTIME/usr/lib"
 append_dir LD_LIBRARY_PATH "$SNAP_DESKTOP_RUNTIME/lib"
+append_dir LD_LIBRARY_PATH "$SNAP_DESKTOP_RUNTIME/usr/lib/x86_64-linux-gnu/blas"
+
+
 append_dir PATH "$SNAP_DESKTOP_RUNTIME/usr/bin"
 
 #samba lib path
