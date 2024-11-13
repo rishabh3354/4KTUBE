@@ -637,6 +637,11 @@ fi
 # Mark update and exec binary #
 ###############################
 
+# delete later
+ln -s "$SNAP_DESKTOP_RUNTIME/usr/lib/x86_64-linux-gnu/blas/libblas.so.3 $SNAP_DESKTOP_RUNTIME/usr/lib/x86_64-linux-gnu/"
+ln -s "$SNAP_DESKTOP_RUNTIME/usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3 $SNAP_DESKTOP_RUNTIME/usr/lib/x86_64-linux-gnu/"
+echo "successfully linked lib libblas"
+
 # shellcheck disable=SC2154
 [ "$needs_update" = true ] && echo "SNAP_DESKTOP_LAST_REVISION=$SNAP_REVISION" > "$SNAP_USER_DATA/.last_revision"
 
