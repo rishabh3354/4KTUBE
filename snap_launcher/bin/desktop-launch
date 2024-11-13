@@ -155,7 +155,6 @@ append_dir LD_LIBRARY_PATH "$SNAP_DESKTOP_RUNTIME/lib/$ARCH"
 append_dir LD_LIBRARY_PATH "$SNAP_DESKTOP_RUNTIME/usr/lib/$ARCH"
 append_dir LD_LIBRARY_PATH "$SNAP_DESKTOP_RUNTIME/usr/lib"
 append_dir LD_LIBRARY_PATH "$SNAP_DESKTOP_RUNTIME/lib"
-append_dir LD_LIBRARY_PATH "$SNAP_DESKTOP_RUNTIME/usr/lib/x86_64-linux-gnu/blas"
 
 
 append_dir PATH "$SNAP_DESKTOP_RUNTIME/usr/bin"
@@ -164,7 +163,7 @@ append_dir PATH "$SNAP_DESKTOP_RUNTIME/usr/bin"
 append_dir LD_LIBRARY_PATH "$SNAP_DESKTOP_RUNTIME/usr/lib/$ARCH/samba/"
 
 #python 3.10 path
-export PYTHONPATH=${PYTHONPATH}:$SNAP_DESKTOP_RUNTIME/usr/lib/python310.zip:$SNAP_DESKTOP_RUNTIME/usr/lib/python3.10:$SNAP_DESKTOP_RUNTIME/usr/lib/python3.10/lib-dynload:$SNAP_DESKTOP_RUNTIME/usr/lib/python3/dist-packages:$SNAP_DESKTOP_RUNTIME/lib/python3.10/site-packages
+export PYTHONPATH=${PYTHONPATH}:$SNAP_DESKTOP_RUNTIME/usr/lib/python312.zip:$SNAP_DESKTOP_RUNTIME/usr/lib/python3.12:$SNAP_DESKTOP_RUNTIME/usr/lib/python3.12/lib-dynload:$SNAP_DESKTOP_RUNTIME/usr/lib/python3/dist-packages:$SNAP_DESKTOP_RUNTIME/lib/python3.12/site-packages
 
 #python 3.10 path for pyinstaller
 export PYINSTALLER_PYTHONPATH=${PYINSTALLER_PYTHONPATH}:$PYTHONPATH
