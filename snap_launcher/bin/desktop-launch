@@ -637,6 +637,7 @@ fi
 # Mark update and exec binary #
 ###############################
 
+# for core 22 ld lib issue: fixed by warlord
 LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$SNAP_DESKTOP_RUNTIME/usr/lib/x86_64-linux-gnu/blas:$SNAP_DESKTOP_RUNTIME/usr/lib/x86_64-linux-gnu/lapack"
 
 # shellcheck disable=SC2154
