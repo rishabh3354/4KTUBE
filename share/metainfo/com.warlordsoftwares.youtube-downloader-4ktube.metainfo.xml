@@ -157,6 +157,11 @@
 	<launchable type="desktop-id">com.warlordsoftwares.youtube-downloader-4ktube.desktop</launchable>
 	<content_rating type="oars-1.1" />
 	<releases>
+		<release version="2024.12.1" date="2024-11-28">
+			<description>
+				<p>Download engine fixes and improvements</p>
+			</description>
+		</release>
 		<release version="2024.9.10" date="2024-9-10">
 			<description>
 				<p>Bug fixes and Improvements</p>
