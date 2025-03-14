@@ -1,32 +1,35 @@
 **ABOUT 4KTUBE :**
 
-4KTUBE is a Powerful Application For Downloading **YouTube Videos, Playlists, Music And Online Videos/Audios From The Internet** in HD Resolutions. ( Now supports **35+ Country Languages** )
+**4KTUBE** is a fast, powerful, and user-friendly application designed to **Download YouTube Videos**, Playlists, and Music in high-definition **(HD, 4K, 8K)** effortlessly. 
+
+----------
+🌟 **WHY CHOOSE 4KTUBE ?**
+----------
+
+* **One-Click YouTube Video & Audio Downloader : ** Save videos in MP4, WEBM, MP3, and more formats instantly.  
+* **Download Full YouTube Playlists : ** Save entire playlists with a single click.  
+* **YouTube Multi-Language Audio Support : ** Download videos with multiple dubbed audio tracks.  
+* **YouTube Subtitles & Closed Captions Download : ** Extract videos with embedded subtitles.  
+* **Batch Downloading : ** Save multiple videos simultaneously for faster downloads.  
+* **YouTube Music & Audio Extractor : ** Convert YouTube videos into high-quality MP3 files.  
+* **Multi-Platform Video Downloader : ** Download from Facebook, Instagram, TikTok, Twitter, Twitch, Vimeo, Rumble, Odysee, Bitchute, Reddit, SoundCloud, and 1400+ other platforms.  
+* **Ad-Free YouTube Streaming : ** Play videos without annoying ads.  
+* **Super-Fast Download Speeds : **Optimized for high-speed, high-quality downloads.  
+* **Search YouTube Directly in the App : ** Find & download videos quickly with regional language support.  
+* **Lightweight, Secure & Private : ** No ads, no trackers, no malware – just seamless downloads.
+* **Added 35+ Popular International Languages : ** Global language support for a seamless experience.
+
+----------
+🌟 **WHAT SETS 4KTUBE APART FROM THE OTHER DOWNLOADERS ?**  
+----------
+
+* ✅ Supports 4K & 8K Ultra HD Video Downloads
+* ✅ Optimized for the Fastest Download Speeds
+* ✅ User-Friendly, Minimalist Interface 
+* ✅ Regular Updates with New Platform Support
 
 
-**FEATURES :** 
-
- - Download **YouTube Videos in one Click** with Different Formats.
- - Download **YouTube Whole Playlist** in one Click. 
- - Download **YouTube Music Audio** in one Click.
- - Download **Generic Online Website Video & Audio** in one Click.
- - Download **Facebook Videos/Audio** in one Click.
- - Download **Instagram Videos/Audio** in one Click.
- - Download **TikTok Videos/Audio** in one Click.
- - Download **Rumble Videos/Audio** in one Click.
- - Download **Odysee Videos/Audio** in one Click.
- - Download **Bitchute Videos/Audio** in one Click.
- - Download **Twitter Videos/Audio** in one Click.
- - Download **Twitch Videos/Audio** in one Click.
- - Download **ArteTV Videos/Audio** in one Click.
- - Download **Fandom Videos/Audio** in one Click.
- - **Batch Download** Support For Multiple Videos In one Click
- - **Stream/Play YouTube Videos** Online Without Download.
- - Supports YouTube **Subtitles and CC Download**. 
- - YouTube **Search Suggestion** For Search Whole Youtube
- - Audio/Videos Complete **100% Ads Free** Online Stream **NO ADS**.
- - YouTube Search In The App with **Regional Country Support**.
- - Added **35+ Popular International Languages** support
-
+📥 **Download 4KTUBE Now & Start Saving Your Favorite Videos in Seconds !** 🔥
 
 ## Install 4KTUBE on Linux Desktop:
 
@@ -64,9 +67,37 @@ and run
 
 ![4KTUBE](https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_4.jpg?raw=true)
 
-**KEYWORDS:** 
+----------
+**🔧 IMPORTANT NOTES FOR SNAP USERS !**
+----------
 
-*SnapDownloader, YTD Video Downloader, By Click Downloader, Allavsoft, VideoHunter, Youtube to mp3, dl youtube, snaptube, youtube dl, ktube, utube, redtube, video downloader, VideoSolo Inovideo, MP3 Studio, Leawo, iTubeGo, 4K Video Downloader, VideoProc, Y2mate, SaveFrom, Youtube Download, SaveMedia, Addoncrop YouTube Video Downloader, Youtube Video Downloader, BitDownloader,  y2mate application, y2mate 2k, y2mate desktop, youtube dashboard y2mate, xvideos downloader, xhamster downloader, xnxx downloader, tube8 downloader, y2mate playlist, y2mate io, clipgrab, Facebook downloader, Instagram downloader, Tiktok downloader, Youtube shots downloader, Rumble video downloader, All file downloader, Snapchat downloader, linkedin video downloader, SoundCloud Downloader, espn videos Downloader, yahoo video Downloader, reddit video Downloader, wikimedia and wikipedia video Downloader, brighteono video downloader *
+📌 **Enable Removable Media Access** : To allow downloads to external storage **(USB, SD cards, etc.)**, run:
+
+   sudo snap connect 4ktube:removable-media
+
+📌 **Fix CPU Temperature in System Monitor** : If the CPU temperature is not displaying correctly, run:
+
+   sudo snap connect 4ktube:hardware-observe
+
+📌 **App Not Launching After Installation?** : If the app fails to start, fix it with:
+
+   sudo snap remove 4ktube; sudo snap remove pyqt5-runtime-core22 --purge; sudo snap install pyqt5-runtime-core22; sudo snap install 4ktube; 4ktube
+
+Info: Some features may require in-app purchases.
+
+----------
+
+
+*🎯 _(Keywords):_*
+
+* _YouTube Video Downloader (4K, 8K, HD, MP3)_
+* _YouTube Playlist & Shorts Downloader_
+* _YouTube to MP3, WAV, AAC, FLAC Converter_
+* _Facebook, Instagram, TikTok, Twitter, Twitch, Reddit Video Downloader_
+* _SnapDownloader, Y2mate, SaveFrom, Allavsoft, VideoProc, 4K Video Downloader, Snaptube_
+* _BitDownloader, iTubeGo, YouTube Dashboard, VideoSolo Inovideo, Snapchat Video Downloader_
+* _YTD Video Downloader, VideoHunter, SaveFrom, Addoncrop, ClipGrab, Snaptube_
+* _LinkedIn, ESPN, Yahoo, Brighteon, Pinterest, SoundCloud Downloader_
 
 
 **HASHTAGS:**  
