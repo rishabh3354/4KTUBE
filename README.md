@@ -1,10 +1,13 @@
 **ABOUT 4KTUBE :**   
   
 **4KTUBE** is a fast, powerful, and user-friendly application designed to **Download YouTube Videos**, Playlists, and Music in high-definition **(HD, 4K, 8K)** effortlessly.   
-  
+
 ----------  
+
 🌟 **WHY CHOOSE 4KTUBE ?**  
+
 ----------  
+
   
 * **One-Click YouTube Video & Audio Downloader :**  Save videos in MP4, WEBM, MP3, and more formats instantly.    
 * **Download Full YouTube Playlists :**  Save entire playlists with a single click.    
@@ -21,6 +24,7 @@
   
 ----------  
 🌟 **WHAT SETS 4KTUBE APART FROM THE OTHER DOWNLOADERS ?** 
+
 ----------  
   
 * ✅ Supports 4K & 8K Ultra HD Video Downloads  
@@ -30,8 +34,11 @@
   
   
 📥 **Download 4KTUBE Now & Start Saving Your Favorite Videos in Seconds !** 🔥  
-  
-## INSTALL 4KTUBE ON LINUX DESKTOP
+
+----------    
+**INSTALL 4KTUBE ON LINUX DESKTOP**
+
+----------  
   
 **SNAP PACKAGE**  
   
@@ -64,8 +71,10 @@ and run
 
     flatpak run com.warlordsoftwares.youtube-downloader-4ktube
 
-  
-## SCREENSHOTS OF 4KTUBE  
+----------  
+**SCREENSHOTS OF 4KTUBE**  
+
+----------  
   
 ![4KTUBE](https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_1.jpg?raw=true)  
   
@@ -76,7 +85,8 @@ and run
 ![4KTUBE](https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_4.jpg?raw=true)  
   
 ----------  
-**🔧 IMPORTANT NOTES FOR SNAP USERS !**  
+**🔧 IMPORTANT NOTES FOR SNAP USERS !** 
+
 ----------  
   
 📌 **Enable Removable Media Access** : To allow downloads to external storage **(USB, SD cards, etc.)**, run:  
@@ -114,7 +124,8 @@ Info: Some features may require in-app purchases.
 * _LinkedIn, ESPN, Yahoo, Brighteon, Pinterest, SoundCloud Downloader_  
   
   
-**HASHTAGS:** #YouTubeDownloader #4KVideoDownloader #YouTubeToMP3 #SnapDownloader #DownloadYouTubeVideos #MP3Converter #FacebookVideoDownloader #InstagramVideoDownloader #TikTokDownloader #PlaylistDownloader #NoAdsVideoStreaming #BatchDownloadVideos #YouTubePlaylistDownloader #YouTubeToMP3Converter #RumbleDownloader #DownloadOnlineVideos #VideoDownloaderApp #FreeVideoDownloader
+_(Hashtags):_
+ #YouTubeDownloader #4KVideoDownloader #YouTubeToMP3 #SnapDownloader #DownloadYouTubeVideos #MP3Converter #FacebookVideoDownloader #InstagramVideoDownloader #TikTokDownloader #PlaylistDownloader #NoAdsVideoStreaming #BatchDownloadVideos #YouTubePlaylistDownloader #YouTubeToMP3Converter #RumbleDownloader #DownloadOnlineVideos #VideoDownloaderApp #FreeVideoDownloader
 
 
 
