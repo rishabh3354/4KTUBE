@@ -162,6 +162,18 @@
 	<launchable type="desktop-id">com.warlordsoftwares.youtube-downloader-4ktube.desktop</launchable>
 	<content_rating type="oars-1.1" />
 	<releases>
+		<release version="2025.3.26" date="2025-3-26">
+			<description>
+				<p>Added YouTube Multi-Language Audio Support.</p>
+				<p>Added support for downloading from new platforms like twitter, twitch, vimeo etc..</p>
+				<p>Added new restore account button in account section.</p>
+				<p>New servers added for better reliability of downloads.</p>
+				<p>YouTube video download size fix.</p>
+				<p>History file details UI enhancement.</p>
+				<p>Error message standardization.</p>
+				<p>MPV Player issue fixed.</p>
+			</description>
+		</release>
 		<release version="2025.3.25" date="2025-3-25">
 			<description>
 				<p>Added YouTube Multi-Language Audio Support.</p>
