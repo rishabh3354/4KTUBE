@@ -20,6 +20,10 @@ apps:
     desktop: 4ktube.desktop
     environment:
       DISABLE_WAYLAND: 1
+      QTWEBENGINE_DISABLE_SANDBOX: '1'
+      QTWEBENGINEPROCESS_PATH: $SNAP/pyqt5-runtime-core22/usr/lib/qt5/libexec/QtWebEngineProcess
+      QTWEBENGINE_LOCALES_PATH: $SNAP/pyqt5-runtime-core22/usr/share/qt5/translations/qtwebengine_locales
+      QTWEBENGINE_RESOURCES_PATH: $SNAP/pyqt5-runtime-core22/usr/share/qt5/resources
 
     plugs:
        - home
