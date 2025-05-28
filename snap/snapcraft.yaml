@@ -47,9 +47,6 @@ apps:
        - hardware-observe
        - optical-drive
        - removable-media
-       - browser-support
-       - process-control
-       - system-files
 
 plugs:
   gsettings:
