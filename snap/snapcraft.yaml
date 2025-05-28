@@ -13,6 +13,12 @@ architectures:
 
 environment:
   SNAP_DESKTOP_RUNTIME: $SNAP/pyqt5-runtime-core22
+  QTWEBENGINE_DISABLE_SANDBOX: 1
+  QTWEBENGINE_CHROMIUM_FLAGS: "--no-sandbox"
+  LD_LIBRARY_PATH: $SNAP/pyqt5-runtime-core22/usr/lib/$SNAPCRAFT_ARCH_TRIPLET:$SNAP/pyqt5-runtime-core22/usr/lib:$LD_LIBRARY_PATH
+  PATH: $SNAP/pyqt5-runtime-core22/usr/bin:$PATH
+  QT_PLUGIN_PATH: $SNAP/pyqt5-runtime-core22/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/qt5/plugins
+  QML2_IMPORT_PATH: $SNAP/pyqt5-runtime-core22/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/qt5/qml
 
 apps:
   4ktube:
@@ -20,10 +26,6 @@ apps:
     desktop: 4ktube.desktop
     environment:
       DISABLE_WAYLAND: 1
-      QTWEBENGINE_DISABLE_SANDBOX: '1'
-      QTWEBENGINEPROCESS_PATH: $SNAP/pyqt5-runtime-core22/usr/lib/qt5/libexec/QtWebEngineProcess
-      QTWEBENGINE_LOCALES_PATH: $SNAP/pyqt5-runtime-core22/usr/share/qt5/translations/qtwebengine_locales
-      QTWEBENGINE_RESOURCES_PATH: $SNAP/pyqt5-runtime-core22/usr/share/qt5/resources
 
     plugs:
        - home
@@ -41,6 +43,9 @@ apps:
        - hardware-observe
        - optical-drive
        - removable-media
+       - browser-support
+       - process-control
+       - system-files
 
 plugs:
   gsettings:
