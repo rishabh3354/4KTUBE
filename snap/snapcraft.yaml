@@ -13,16 +13,6 @@ architectures:
 
 environment:
   SNAP_DESKTOP_RUNTIME: $SNAP/pyqt5-runtime-core22
-  # Qt WebEngine configuration
-  QTWEBENGINE_DISABLE_SANDBOX: "1"
-  QTWEBENGINE_CHROMIUM_FLAGS: "--no-sandbox"
-  QTWEBENGINE_RESOURCES_PATH: $SNAP/pyqt5-runtime-core22/usr/share/qt5/resources
-  QTWEBENGINE_LOCALES_PATH: $SNAP/pyqt5-runtime-core22/usr/share/qt5/translations/qtwebengine_locales
-
-  # Library paths
-  LD_LIBRARY_PATH: $SNAP/pyqt5-runtime-core22/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
-  QT_PLUGIN_PATH: $SNAP/pyqt5-runtime-core22/usr/lib/x86_64-linux-gnu/qt5/plugins
-  QML2_IMPORT_PATH: $SNAP/pyqt5-runtime-core22/usr/lib/x86_64-linux-gnu/qt5/qml
 
 apps:
   4ktube:
