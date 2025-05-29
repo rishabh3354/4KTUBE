@@ -13,6 +13,9 @@ architectures:
 
 environment:
   SNAP_DESKTOP_RUNTIME: $SNAP/pyqt5-runtime-core22
+  QT_QPA_PLATFORM_PLUGIN_PATH: $SNAP/usr/lib/x86_64-linux-gnu/qt5/plugins
+  QTWEBENGINE_RESOURCES_PATH: $SNAP/qt5-resources/resources
+  QTWEBENGINE_LOCALES_PATH: $SNAP/qt5-resources/translations/qtwebengine_locales
 
 apps:
   4ktube:
