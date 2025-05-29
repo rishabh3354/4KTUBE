@@ -608,8 +608,8 @@ export VLC_PLUGIN_PATH="$SNAP_DESKTOP_RUNTIME/usr/lib/x86_64-linux-gnu/vlc/plugi
 
 
 
-export QTWEBENGINE_RESOURCES_PATH: $SNAP_DESKTOP_RUNTIME/usr/share/qt5/resources
-export QTWEBENGINE_LOCALES_PATH: $SNAP_DESKTOP_RUNTIME/usr/share/qt5/translations/qtwebengine_locales
+export QTWEBENGINE_RESOURCES_PATH="$SNAP_DESKTOP_RUNTIME/usr/share/qt5/resources"
+export QTWEBENGINE_LOCALES_PATH="$SNAP_DESKTOP_RUNTIME/usr/share/qt5/translations/qtwebengine_locales"
 
 
 # Ensure QtChooser behaves.
