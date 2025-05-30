@@ -152,9 +152,7 @@ if ! snapctl is-connected $RUNTIME_NAME; then
 fi
 
 # Fix QtWebEngine resource paths
-export QTWEBENGINE_RESOURCES_PATH="$SNAP_DESKTOP_RUNTIME/usr/share/qt5/resources"
-export QTWEBENGINE_LOCALES_PATH="$SNAP_DESKTOP_RUNTIME/usr/share/qt5/translations"
-export QT_PLUGIN_PATH="$SNAP_DESKTOP_RUNTIME/usr/lib/$ARCH/qt5/plugins"
+
 
 append_dir LD_LIBRARY_PATH "$SNAP_DESKTOP_RUNTIME/lib/$ARCH"
 append_dir LD_LIBRARY_PATH "$SNAP_DESKTOP_RUNTIME/usr/lib/$ARCH"
@@ -646,6 +644,10 @@ fi
 
 # for core 22 ld lib issue: fixed by warlord
 LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$SNAP_DESKTOP_RUNTIME/usr/lib/x86_64-linux-gnu/blas:$SNAP_DESKTOP_RUNTIME/usr/lib/x86_64-linux-gnu/lapack"
+
+export QTWEBENGINE_RESOURCES_PATH="$SNAP_DESKTOP_RUNTIME/usr/share/qt5/resources"
+export QTWEBENGINE_LOCALES_PATH="$SNAP_DESKTOP_RUNTIME/usr/share/qt5/translations"
+export QT_PLUGIN_PATH="$SNAP_DESKTOP_RUNTIME/usr/lib/$ARCH/qt5/plugins"
 
 # shellcheck disable=SC2154
 [ "$needs_update" = true ] && echo "SNAP_DESKTOP_LAST_REVISION=$SNAP_REVISION" > "$SNAP_USER_DATA/.last_revision"
