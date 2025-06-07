@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+	<id>com.warlordsoftwares.youtube-downloader-4ktube</id>
+	<metadata_license>CC0-1.0</metadata_license>
+	<project_license>LicenseRef-proprietary=https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/license/LICENSE</project_license>
+	<developer_name translate="no">Warlord Softwares</developer_name>
+	<branding>
+		<color type="primary" scheme_preference="light">#e6e6e6</color>
+		<color type="primary" scheme_preference="dark">#161d1d</color>
+	</branding>
+	<name>4KTUBE</name>
+	<summary>4K YouTube Downloader – Download HD YouTube Videos, Playlists, and Music Instantly.</summary>
+	<description>
+		<p>ABOUT 4KTUBE :</p>
+		<p>4KTUBE is a fast, powerful, and user-friendly application designed to download YouTube videos, playlists, and music in high-definition (HD, 4K, 8K) effortlessly.</p>
+		<p>WHY CHOOSE 4KTUBE?</p>
+			<ul>
+				<li>One-click YouTube video and audio downloader: Save videos in MP4, WEBM, MP3, and more formats instantly.</li>
+				<li>Download full YouTube playlists: Save entire playlists with a single click.</li>
+				<li>YouTube multi-language audio support: Download videos with multiple dubbed audio tracks.</li>
+				<li>YouTube subtitles and closed captions download: Extract videos with embedded subtitles.</li>
+				<li>Sign-in-required videos: Now you can download sign-in-required videos from YouTube by authenticating your account.</li>
+				<li>Batch downloading: Save multiple videos simultaneously for faster downloads.</li>
+				<li>YouTube music and audio extractor: Convert YouTube videos into high-quality MP3 files.</li>
+				<li>Multi-platform video downloader: Download from Facebook, Instagram, TikTok, Twitter, Twitch, Vimeo, Rumble, Odysee, Bitchute, Reddit, SoundCloud, and 1400+ other platforms.</li>
+				<li>Ad-free YouTube streaming: Play videos without annoying ads.</li>
+				<li>Super-fast download speeds: Optimized for high-speed, high-quality downloads.</li>
+				<li>Search YouTube directly in the app: Find and download videos quickly with regional language support.</li>
+				<li>Lightweight, secure and private: No ads, no trackers, no malware – just seamless downloads.</li>
+    		</ul>
+		 <p>WHAT SETS 4KTUBE APART?</p>
+			<ul>
+			  <li>Supports 4K and 8K Ultra HD video downloads</li>
+			  <li>Optimized for the fastest download speeds</li>
+			  <li>Easily Authenticate YouTube account for sign-in-required videos</li>
+			  <li>User-friendly, minimalist interface</li>
+			  <li>Regular updates with new platform support</li>
+			</ul>
+		 <p>LANGUAGE SUPPORT :</p>
+		<ul>
+			<li>4KTUBE is available in 35+ popular international languages, including German, French, Spanish, Italian, Dutch, Portuguese, Japanese, Polish, Swedish, Chinese, Russian and more.</li>
+		</ul>
+	</description>
+	<keywords>
+		<!--		English Keywords-->
+		<keyword translate="no">4KTUBE</keyword>
+		<keyword>SnapDownloader</keyword>
+		<keyword>By Click Downloader</keyword>
+		<keyword>VideoHunter</keyword>
+		<keyword>Youtube to mp3</keyword>
+		<keyword>snaptube</keyword>
+		<keyword>youtube dl</keyword>
+		<keyword>video downloader</keyword>
+		<keyword>VideoSolo</keyword>
+		<keyword>Inovideo</keyword>
+		<keyword>MP3 Studio</keyword>
+		<keyword>Leawo</keyword>
+		<keyword>iTubeGo</keyword>
+		<keyword>YouTube to MP3</keyword>
+		<keyword>Audio downloader</keyword>
+		<keyword>Online video downloader</keyword>
+		<keyword>Batch video downloader</keyword>
+		<keyword>Free YouTube downloader</keyword>
+		<keyword>Playlist downloader</keyword>
+		<keyword>Download YouTube videos</keyword>
+		<keyword>Download 4K videos</keyword>
+		<keyword>xvideos downloader</keyword>
+		<keyword>xhamster downloader</keyword>
+		<keyword>xnxx downloader</keyword>
+		<keyword>tube8 downloader</keyword>
+		<keyword>pornhub downloader</keyword>
+		<keyword>youporn downloader</keyword>
+		<keyword>redtube downloader</keyword>
+		<keyword>iporntv downloader</keyword>
+		<keyword>ixxx downloader</keyword>
+		<keyword>beeg downloader</keyword>
+		<keyword>4K YouTube to MP3</keyword>
+		<keyword>YouTube 4K downloader</keyword>
+		<keyword>Music downloader</keyword>
+		<keyword>4K Video Downloader</keyword>
+		<keyword>Video downloader for YouTube</keyword>
+		<keyword>Music downloader</keyword>
+		<keyword>Media Downloader</keyword>
+		<keyword>VideoProc</keyword>
+		<keyword>Y2mate</keyword>
+		<keyword>SaveFrom</keyword>
+		<keyword>Youtube Download</keyword>
+		<keyword>SaveMedia</keyword>
+		<keyword>Addoncrop</keyword>
+		<keyword>YouTube Video Downloader</keyword>
+		<keyword>Facebook downloader</keyword>
+		<keyword>Instagram downloader</keyword>
+		<keyword>Tiktok downloader</keyword>
+		<keyword>Youtube shots downloader</keyword>
+		<keyword>Rumble video downloader</keyword>
+		<keyword>All file downloader</keyword>
+		<keyword>Snapchat downloader</keyword>
+		<keyword>linkedin video downloader</keyword>
+		<keyword>SoundCloud Downloader</keyword>
+		<!--		German keywords-->
+		<keyword xml:lang="de">YouTube zu MP3</keyword>
+		<keyword xml:lang="de">Video-Downloader</keyword>
+		<keyword xml:lang="de">Kostenloser YouTube-Downloader</keyword>
+		<keyword xml:lang="de">YouTube-Videos herunterladen</keyword>
+		<keyword xml:lang="de">4K-Videos herunterladen</keyword>
+		<keyword xml:lang="de">Musik-Downloader</keyword>
+		<keyword xml:lang="de">Alle-Dateien-Downloader</keyword>
+		<keyword xml:lang="de">Video-Downloader für YouTube</keyword>
+		<!--		French keywords-->
+		<keyword xml:lang="fr">Téléchargeur de vidéos en ligne</keyword>
+		<keyword xml:lang="fr">Téléchargeur de vidéos par lot</keyword>
+		<keyword xml:lang="fr">Téléchargeur YouTube gratuit</keyword>
+		<keyword xml:lang="fr">Télécharger des vidéos YouTube</keyword>
+		<keyword xml:lang="fr">Téléchargeur YouTube 4K</keyword>
+		<!--		Italian keywords-->
+		<keyword xml:lang="it">Scaricatore di video</keyword>
+		<keyword xml:lang="it">Scaricatore di video online</keyword>
+		<keyword xml:lang="it">Scaricatore YouTube 4K</keyword>
+		<!--		Spanish keywords-->
+		<keyword xml:lang="es">Descargador gratuito de YouTube</keyword>
+		<keyword xml:lang="es">Descargar videos en 4K</keyword>
+		<keyword xml:lang="es">Descargador de videos para YouTube</keyword>
+		<!--		Japanese keywords-->
+		<keyword xml:lang="ja">無料の YouTube ダウンローダー</keyword>
+		<keyword xml:lang="ja">4K ビデオダウンローダー</keyword>
+		<keyword xml:lang="ja">YouTube ビデオをダウンロード</keyword>
+		<!--		Swedish Keywords-->
+		<keyword xml:lang="sv">Ladda ner YouTube-videor</keyword>
+		<keyword xml:lang="sv">YouTube 4K nedladdare</keyword>
+		<keyword xml:lang="sv">Online videonedladdare</keyword>
+	</keywords>
+	<categories>
+		<category>Utility</category>
+		<category>AudioVideo</category>
+	</categories>
+	<screenshots>
+		<screenshot type="default">
+			<caption>4KTUBE: YouTube home page</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_1.jpg</image>
+		</screenshot>
+		<screenshot>
+			<caption>4KTUBE: Video download page</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_2.jpg</image>
+		</screenshot>
+		<screenshot>
+			<caption>4KTUBE: System monitor page</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_3.jpg</image>
+		</screenshot>
+		<screenshot>
+			<caption>4KTUBE: About me page</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_4.jpg</image>
+		</screenshot>
+		<screenshot>
+			<caption>4KTUBE: App settings page</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_5.jpg</image>
+		</screenshot>
+	</screenshots>
+	<url type="homepage">https://warlordsoftwares.com/trending-apps/4ktube-pro-best-youtube-video-downloader-linux/</url>
+	<url type="vcs-browser">https://github.com/rishabh3354/4KTUBE/</url>
+	<url type="bugtracker">https://github.com/rishabh3354/4KTUBE/issues</url>
+	<url type="contact">https://warlordsoftwares.com/contact-us/</url>
+	<url type="donation">https://www.paypal.me/rishabh3354/10</url>
+	<update_contact>contact@warlordsoftwares.com</update_contact>
+	<launchable type="desktop-id">com.warlordsoftwares.youtube-downloader-4ktube.desktop</launchable>
+	<content_rating type="oars-1.1" />
+	<releases>
+		<release version="2025.6.6" date="2025-6-6">
+			<description>
+				<p>New Feature: Now you can download sign-in-required videos from YouTube by authenticating your account.</p>
+				<p>Added inbuilt webengine web-browser in the app</p>
+				<p>Bug fixes and improvements</p>
+			</description>
+		</release>
+		<release version="2025.5.23" date="2025-5-23">
+			<description>
+				<p>Fix: Download only 720p YouTube videos bug fixed</p>
+				<p>Other improvements and fixes</p>
+			</description>
+		</release>
+		<release version="2025.5.14" date="2025-5-14">
+			<description>
+				<p>New feature added: Automated account restore portal linked via restore button.</p>
+				<p>Other platform engine fixes - twitter, twitch etc.</p>
+				<p>MPV Player issue fixed.</p>
+				<p>Version api check for updates improvements.</p>
+			</description>
+		</release>
+		<release version="2025.5.7" date="2025-5-7">
+			<description>
+				<p>New feature added: Automated account restore portal linked via restore button</p>
+				<p>Other platform engine fixes - twitter, twitch etc</p>
+				<p>MPV Player issue fixed.</p>
+			</description>
+		</release>
+		<release version="2025.4.22" date="2025-4-23">
+			<description>
+				<p>New feature added: Now you can check for urgent app updates from about me tab</p>
+				<p>Error message standardization and improvements</p>
+				<p>Window icon fixed for main windows</p>
+			</description>
+		</release>
+		<release version="2025.4.4" date="2025-4-4">
+			<description>
+				<p>Added YouTube Multi-Language Audio Support.</p>
+				<p>Added support for downloading from new platforms like twitter, twitch, vimeo etc..</p>
+				<p>Added new restore account button in account section.</p>
+				<p>New servers added for better reliability of downloads.</p>
+				<p>YouTube video download size fix.</p>
+				<p>History file details UI enhancement.</p>
+				<p>Error message standardization.</p>
+				<p>MPV Player issue fixed.</p>
+			</description>
+		</release>
+		<release version="2025.3.26" date="2025-3-26">
+			<description>
+				<p>Added YouTube Multi-Language Audio Support.</p>
+				<p>Added support for downloading from new platforms like twitter, twitch, vimeo etc..</p>
+				<p>Added new restore account button in account section.</p>
+				<p>New servers added for better reliability of downloads.</p>
+				<p>YouTube video download size fix.</p>
+				<p>History file details UI enhancement.</p>
+				<p>Error message standardization.</p>
+				<p>MPV Player issue fixed.</p>
+			</description>
+		</release>
+		<release version="2025.3.25" date="2025-3-25">
+			<description>
+				<p>Added YouTube Multi-Language Audio Support.</p>
+				<p>Added support for downloading from new platforms like twitter, twitch, vimeo etc..</p>
+				<p>Added new restore account button in account section.</p>
+				<p>New servers added for better reliability of downloads.</p>
+				<p>YouTube video download size fix.</p>
+				<p>History file details UI enhancement.</p>
+				<p>Error message standardization.</p>
+				<p>MPV Player issue fixed.</p>
+			</description>
+		</release>
+		<release version="2025.3.10" date="2025-3-12">
+			<description>
+				<p>New Features:</p>
+				<ul>
+					<li>Added YouTube Multi-Language Audio Support.</li>
+					<li>Added support for downloading from new platforms like twitter, twitch, vimeo etc..</li>
+					<li>Added new restore account button in account section.</li>
+				</ul>
+				<p>Bug Fixes and Improvements:</p>
+				<ul>
+					<li>New servers added for better reliability of downloads.</li>
+					<li>YouTube video download size fix.</li>
+					<li>History file details UI enhancement.</li>
+					<li>Error message standardization.</li>
+					<li>MPV Player issue fixed.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="2024.12.1" date="2024-11-28">
+			<description>
+				<p>Download engine fixes and improvements</p>
+			</description>
+		</release>
+		<release version="2024.9.10" date="2024-9-10">
+			<description>
+				<p>Bug fixes and Improvements</p>
+				<ul>
+					<li>Now supports 35+ Country Languages</li>
+					<li>Bug fixes: Combo-box for settings</li>
+					<li>Mpv streaming player video title issue fixed</li>
+				</ul>
+			</description>
+		</release>
+		<release version="2024.9.1" date="2024-9-3">
+			<description>
+				<p>Now supports 35+ Country Languages</p>
+				<p>Bug fixes: Combo-box for settings</p>
+				<p>Mpv streaming player video title issue fixed</p>
+			</description>
+		</release>
+		<release version="2024.7.26" date="2024-7-26" />
+		<release version="2024.7.11" date="2024-7-11" />
+		<release version="2024.7.5" date="2024-7-5" />
+		<release version="2024.6.7" date="2024-6-7" />
+		<release version="2024.5.3" date="2024-04-26" />
+		<release version="2024.3.12" date="2024-03-12" />
+		<release version="2024.2.20" date="2024-02-20" />
+		<release version="2024.1.10" date="2024-01-10" />
+	</releases>
+</component>

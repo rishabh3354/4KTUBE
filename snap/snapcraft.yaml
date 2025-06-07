@@ -1,0 +1,75 @@
+name: 4ktube
+base: core22
+version: '2025.6.6'
+summary: Download youtube videos, playlist and music audio in full HD formats
+description: 4KTUBE is a powerful GUI application for linux for downloading youtube videos, playlist and music audio in full UHD+ resolutions and supports MP4, WEBM and MP3 formats.
+grade: stable
+confinement: strict
+
+icon: snap/gui/icon.png
+
+architectures:
+  - build-on: [amd64]
+
+environment:
+  SNAP_DESKTOP_RUNTIME: $SNAP/content-snap-core22
+
+apps:
+  4ktube:
+    command: bin/desktop-launch 4ktube
+    desktop: 4ktube.desktop
+    environment:
+      DISABLE_WAYLAND: 1
+
+    plugs:
+       - home
+       - gsettings
+       - network
+       - network-bind
+       - network-status
+       - desktop
+       - desktop-legacy
+       - x11
+       - unity7
+       - wayland
+       - opengl
+       - audio-playback
+       - hardware-observe
+       - optical-drive
+       - removable-media
+
+plugs:
+  gsettings:
+  gtk-3-themes:
+    interface: content
+    target: $SNAP/data-dir/themes
+    default-provider: gtk-common-themes
+  icon-themes:
+    interface: content
+    target: $SNAP/data-dir/icons
+    default-provider: gtk-common-themes
+  sound-themes:
+    interface: content
+    target: $SNAP/data-dir/sounds
+    default-provider: gtk-common-themes
+  content-snap-core22:
+    interface: content
+    target: $SNAP/content-snap-core22
+    default-provider: content-snap-core22
+
+parts:
+  snap-launcher:
+    plugin: dump
+    source: snap_launcher/
+    override-build: |
+      craftctl default
+      sed -i 's|Icon=.*|Icon=${SNAP}/meta/gui/icon.png|g' ${SNAPCRAFT_PART_SRC}/4ktube.desktop
+      mkdir -p ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/
+      cp -rf ${SNAPCRAFT_PART_SRC}/4ktube.desktop ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/4ktube.desktop
+
+  4ktube-binary:
+    plugin: dump
+    source: https://warlordsoftwares.com/static/app_builds/flatpak/4ktube.tar.gz
+    source-type: tar
+    organize:
+      '4ktube': bin/4ktube

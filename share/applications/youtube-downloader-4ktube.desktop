@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=4KTUBE
+StartupWMClass=4KTUBE
+Comment=4Ktube for Desktop
+GenericName=4Ktube for Linux
+Exec=4ktube.sh %u
+Icon=com.warlordsoftwares.youtube-downloader-4ktube
+Terminal=false
+Type=Application
+StartupNotify=true
+Keywords=youtube downloader;video downloader;music downloader;playlist downloader;full HD downloader;audio downloader; youtube; youtube music;
+Categories=Utility;Qt;
