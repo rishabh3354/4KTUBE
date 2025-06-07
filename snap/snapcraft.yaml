@@ -69,7 +69,7 @@ parts:
 
   4ktube-binary:
     plugin: dump
-    source: https://warlordsoftwares.com/static/app_builds/flatpak/4ktube.tar.gz
+    source: https://warlordsoftwares.com/static/app_builds/snap/4KTUBE.tar.gz
     source-type: tar
     organize:
       '4ktube': bin/4ktube
