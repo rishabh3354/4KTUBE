@@ -11,6 +11,7 @@ icon: snap/gui/icon.png
 architectures:
   - build-on: [amd64]
 
+
 environment:
   SNAP_DESKTOP_RUNTIME: $SNAP/content-snap-core22
 
