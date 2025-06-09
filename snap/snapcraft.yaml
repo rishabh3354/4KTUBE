@@ -71,5 +71,7 @@ parts:
     plugin: dump
     source: https://warlordsoftwares.com/static/app_builds/snap/4KTUBE.tar.gz
     source-type: tar
-    organize:
-      '4ktube': bin/4ktube
+    override-build: |
+      mkdir -p ${SNAPCRAFT_PART_INSTALL}/bin
+      cp 4KTUBE ${SNAPCRAFT_PART_INSTALL}/bin/4ktube
+      chmod +x ${SNAPCRAFT_PART_INSTALL}/bin/4ktube
