@@ -56,12 +56,17 @@ plugs:
     interface: content
     target: $SNAP/content-snap-core22
     default-provider: content-snap-core22
-  deno-runtime:
-    interface: content
-    target: $SNAP/deno
-    default-provider: deno
 
 parts:
+  deno:
+    plugin: nil
+    source: https://github.com/denoland/deno/releases/download/v1.46.3/deno-x86_64-unknown-linux-gnu.zip
+    source-type: zip
+    override-build: |
+      mkdir -p $SNAPCRAFT_PART_INSTALL/bin
+      cp deno $SNAPCRAFT_PART_INSTALL/bin/deno
+      chmod +x $SNAPCRAFT_PART_INSTALL/bin/deno
+
   snap-launcher:
     plugin: dump
     source: snap_launcher/
