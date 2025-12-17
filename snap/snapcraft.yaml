@@ -56,6 +56,10 @@ plugs:
     interface: content
     target: $SNAP/content-snap-core22
     default-provider: content-snap-core22
+  deno-runtime:
+    interface: content
+    target: $SNAP/deno
+    default-provider: deno
 
 parts:
   snap-launcher:
@@ -66,11 +70,6 @@ parts:
       sed -i 's|Icon=.*|Icon=${SNAP}/meta/gui/icon.png|g' ${SNAPCRAFT_PART_SRC}/4ktube.desktop
       mkdir -p ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/
       cp -rf ${SNAPCRAFT_PART_SRC}/4ktube.desktop ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/4ktube.desktop
-
-  deno:
-    plugin: nil
-    stage-snaps:
-      - deno
 
   4ktube-binary:
     plugin: dump
