@@ -84,3 +84,4 @@ parts:
       mkdir -p ${SNAPCRAFT_PART_INSTALL}/bin
       cp 4KTUBE ${SNAPCRAFT_PART_INSTALL}/bin/4ktube
       chmod +x ${SNAPCRAFT_PART_INSTALL}/bin/4ktube
+
