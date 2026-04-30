@@ -78,13 +78,15 @@ and run
 
 ----------  
   
-![4KTUBE](https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_1.jpg?raw=true)  
+![4KTUBE](https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/video_download.png?raw=true)  
   
-![4KTUBE](https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_2.jpg?raw=true)  
+![4KTUBE](https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/playlist_downloading.png?raw=true)  
   
-![4KTUBE](https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_3.jpg?raw=true)  
+![4KTUBE](https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/youtube_search.png?raw=true)  
   
-![4KTUBE](https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_4.jpg?raw=true)  
+![4KTUBE](https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/batch_downloading.png?raw=true)  
+
+![4KTUBE](https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/app_settings.png?raw=true)  
   
 ----------  
 **🔧 IMPORTANT NOTES FOR SNAP USERS !** 
