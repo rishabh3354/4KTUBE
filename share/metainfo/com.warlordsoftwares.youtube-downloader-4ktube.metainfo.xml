@@ -125,24 +125,24 @@
 	</categories>
 	<screenshots>
 		<screenshot type="default">
-			<caption>4KTUBE: YouTube home page</caption>
-			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_1.jpg</image>
-		</screenshot>
-		<screenshot>
 			<caption>4KTUBE: Video download page</caption>
-			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_2.jpg</image>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/video_download.png</image>
 		</screenshot>
 		<screenshot>
-			<caption>4KTUBE: System monitor page</caption>
-			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_3.jpg</image>
+			<caption>4KTUBE: Playlist download page</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/playlist_downloading.png</image>
 		</screenshot>
 		<screenshot>
-			<caption>4KTUBE: About me page</caption>
-			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_4.jpg</image>
+			<caption>4KTUBE: YouTube search page</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/youtube_search.png</image>
+		</screenshot>
+		<screenshot>
+			<caption>4KTUBE: Batch downloading page</caption>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/batch_downloading.png</image>
 		</screenshot>
 		<screenshot>
 			<caption>4KTUBE: App settings page</caption>
-			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/4ktube-warlordsoftwares_5.jpg</image>
+			<image type="source">https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/app_settings.png</image>
 		</screenshot>
 	</screenshots>
 	<url type="homepage">https://warlordsoftwares.com/trending-apps/4ktube-pro-best-youtube-video-downloader-linux/</url>
